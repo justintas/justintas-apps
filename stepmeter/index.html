@@ -14,45 +14,91 @@
       padding: 40px 20px 80px;
     }
     .container { max-width: 680px; margin: 0 auto; }
+
     .logo {
-      display: flex; align-items: center; gap: 12px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
       margin-bottom: 48px;
     }
-    .logo-icon {
-      width: 48px; height: 48px; border-radius: 12px;
-      background: #B6E84A;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 24px;
+    .logo img {
+      width: 52px;
+      height: 52px;
+      border-radius: 13px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.4);
     }
-    .logo-name { font-size: 20px; font-weight: 600; color: #f0ede8; }
+    .logo-name {
+      font-size: 22px;
+      font-weight: 700;
+      color: #f0ede8;
+    }
+    .logo-sub {
+      font-size: 13px;
+      color: #8a837a;
+      margin-top: 1px;
+    }
+
     h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
     .updated { color: #8a837a; font-size: 14px; margin-bottom: 40px; }
+
+    .badge {
+      display: inline-block;
+      background: #1a2410;
+      border: 1px solid #2e3d1a;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #B6E84A;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+
     h2 {
-      font-size: 18px; font-weight: 600; color: #B6E84A;
-      margin: 36px 0 12px;
+      font-size: 17px;
+      font-weight: 600;
+      color: #B6E84A;
+      margin: 36px 0 10px;
     }
     p { color: #c8c2bc; margin-bottom: 12px; }
     ul { color: #c8c2bc; padding-left: 20px; margin-bottom: 12px; }
     ul li { margin-bottom: 6px; }
     a { color: #B6E84A; text-decoration: none; }
     a:hover { text-decoration: underline; }
+
     .highlight {
-      background: #1e1c18; border: 1px solid #2e2b25;
-      border-radius: 12px; padding: 20px 24px; margin: 24px 0;
+      background: #1e1c18;
+      border: 1px solid #2e2b25;
+      border-left: 4px solid #B6E84A;
+      border-radius: 8px;
+      padding: 18px 22px;
+      margin: 24px 0;
     }
     .highlight p { color: #f0ede8; margin: 0; font-weight: 500; }
-    footer { margin-top: 60px; color: #5a5550; font-size: 13px; }
+
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #2a2720;
+      color: #5a5550;
+      font-size: 13px;
+    }
+    footer a { color: #5a5550; }
+    footer a:hover { color: #8a837a; }
   </style>
 </head>
 <body>
   <div class="container">
 
     <div class="logo">
-      <div class="logo-icon">🚶</div>
-      <span class="logo-name">StepMeter</span>
+      <img src="icon.png" alt="StepMeter app icon" />
+      <div>
+        <div class="logo-name">StepMeter</div>
+        <div class="logo-sub">Daily Step Tracker</div>
+      </div>
     </div>
 
-    <h1>Privacy Policy</h1>
+    <span class="badge">Privacy Policy</span>
+    <h1 style="margin-top: 16px;">Your Privacy</h1>
     <p class="updated">Last updated: May 2026</p>
 
     <div class="highlight">
@@ -90,13 +136,13 @@
     <p>StepMeter does not knowingly collect data from anyone. Since no data leaves the device, there are no age-based restrictions on data handling.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>If this policy changes, the updated version will be posted at this URL with a new "Last updated" date.</p>
+    <p>If this policy changes, the updated version will be posted at this URL with a new "Last updated" date. Significant changes will also be noted in the App Store release notes.</p>
 
     <h2>Contact</h2>
     <p>Questions about this policy? Reach out at <a href="mailto:justintas@gmail.com">justintas@gmail.com</a></p>
 
     <footer>
-      <p>© 2026 StepMeter. All rights reserved.</p>
+      <p>© 2026 Justin Tew. All rights reserved. · <a href="../">All Apps</a></p>
     </footer>
 
   </div>

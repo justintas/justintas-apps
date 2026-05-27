@@ -1,14 +1,12 @@
 # justintas-apps
 
-Privacy-first iOS applications. All data stays on your device.
-
-This repository hosts the public-facing pages (landing, privacy policies) for Justin's iOS apps.
+iOS applications by Justin Tew. This repository hosts the public-facing pages (landing, privacy policies) for all apps.
 
 ## Apps
 
 ### StepMeter
 Step counter with GPS route tracking and walking history. All data stored locally on your device.
-- **Privacy Policy:** [privacy.html](privacy.html)
+- **Privacy Policy:** [stepmeter/](stepmeter/)
 
 ### Numina
 Professional calculator with graphing, RPN mode, unit converter, and custom programs. Scientific and financial calculations, offline.
@@ -18,14 +16,18 @@ Professional calculator with graphing, RPN mode, unit converter, and custom prog
 Budget Survival Tracker — see your daily spending allowance at a glance. Track expenses, subscriptions, multiple income sources.
 - **Privacy Policy:** [cukup/](cukup/)
 
+### Gyro Dash
+Tilt-controlled arcade racer — dodge obstacles, collect coins, and unlock vehicles using your phone's gyroscope. Free with ads, or go ad-free with an in-app purchase.
+- **Privacy Policy:** [gyrodash/](gyrodash/)
+
 ## Privacy Commitment
 
 All apps in this suite:
-- ✅ Store all data locally on your device only
+- ✅ Store all game/app data locally on your device only
 - ✅ No user accounts or cloud sync
-- ✅ No analytics, crash reporting, or tracking
-- ✅ No third-party SDKs or advertising
-- ✅ Optional network calls only for publicly available data (e.g., exchange rates)
+- ✅ No analytics or crash reporting
+
+**Gyro Dash** additionally uses Google AdMob for advertising. AdMob may collect advertising identifiers and device info to serve relevant ads. See the [Gyro Dash privacy policy](gyrodash/) for full details. Ad-free play is available via in-app purchase.
 
 Each app has a detailed privacy policy in its folder.
 
@@ -35,6 +37,7 @@ Apps are built with:
 - **StepMeter:** SwiftUI, HealthKit, CoreLocation
 - **Numina:** SwiftUI, Swift Charts
 - **Cukup:** SwiftUI, SwiftData, StoreKit 2
+- **Gyro Dash:** HTML5/JS (WKWebView), CoreMotion, Google Mobile Ads SDK, StoreKit 2
 
 All apps target iOS 17+.
 

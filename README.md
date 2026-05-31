@@ -4,7 +4,7 @@ iOS applications by Justin Tew. This repository hosts the public-facing pages (l
 
 ## Apps
 
-### StepMeter
+### StepMeterX
 Step counter with GPS route tracking and walking history. All data stored locally on your device.
 - **Privacy Policy:** [stepmeter/](stepmeter/)
 
@@ -42,7 +42,7 @@ Each app has a detailed privacy policy in its folder.
 ## Building
 
 Apps are built with:
-- **StepMeter:** SwiftUI, HealthKit, CoreLocation
+- **StepMeterX:** SwiftUI, HealthKit, CoreLocation
 - **Numinion:** SwiftUI, Swift Charts
 - **Cukup:** SwiftUI, SwiftData, StoreKit 2
 - **Gyro Dash:** HTML5/JS (WKWebView), CoreMotion, Google Mobile Ads SDK, StoreKit 2

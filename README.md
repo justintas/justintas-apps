@@ -8,7 +8,7 @@ iOS applications by Justin Tew. This repository hosts the public-facing pages (l
 Step counter with GPS route tracking and walking history. All data stored locally on your device.
 - **Privacy Policy:** [stepmeter/](stepmeter/)
 
-### Numina
+### Numinion
 Professional calculator with graphing, RPN mode, unit converter, and custom programs. Scientific and financial calculations, offline.
 - **Privacy Policy:** [numina/](numina/)
 
@@ -43,7 +43,7 @@ Each app has a detailed privacy policy in its folder.
 
 Apps are built with:
 - **StepMeter:** SwiftUI, HealthKit, CoreLocation
-- **Numina:** SwiftUI, Swift Charts
+- **Numinion:** SwiftUI, Swift Charts
 - **Cukup:** SwiftUI, SwiftData, StoreKit 2
 - **Gyro Dash:** HTML5/JS (WKWebView), CoreMotion, Google Mobile Ads SDK, StoreKit 2
 - **SliceStackX:** SwiftUI, SpriteKit, Google Mobile Ads SDK, StoreKit 2

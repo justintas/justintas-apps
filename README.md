@@ -28,6 +28,10 @@ One-tap tower builder — tap to drop, slice off the overhang, and chase the sat
 Habit tracker built around a single constraint: track exactly three habits at a time. One-tap check-in, perfect-day streaks, and a daily reminder that auto-skips when you've already finished. Premium unlocks dark mode, custom app icons, unlimited history, and PDF export. One-time purchase, no subscription.
 - **Privacy Policy:** [dailythreex/](dailythreex/)
 
+### StorageXSense
+Duplicate cleaner — finds duplicate photos, large videos, and duplicate contacts, then helps you delete or merge them to reclaim space. All scanning happens on-device; nothing is ever uploaded. Pro unlocks deletion, contact merge, Light/Dark mode, and custom app icons. One-time purchase, no subscription.
+- **Privacy Policy:** [storagesense/](storagesense/)
+
 ## Privacy Commitment
 
 All apps in this suite:
@@ -48,8 +52,9 @@ Apps are built with:
 - **Gyro Dash:** HTML5/JS (WKWebView), CoreMotion, Google Mobile Ads SDK, StoreKit 2
 - **SliceStackX:** SwiftUI, SpriteKit, Google Mobile Ads SDK, StoreKit 2
 - **DailyThreeX:** SwiftUI, SwiftData, StoreKit 2, UserNotifications
+- **StorageXSense:** SwiftUI, Photos, Contacts, StoreKit 2, LocalAuthentication
 
-Most apps target iOS 17+; SliceStackX targets iOS 15+.
+Most apps target iOS 17+; StorageXSense targets iOS 16+; SliceStackX targets iOS 15+.
 
 ## Support
 

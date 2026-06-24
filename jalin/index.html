@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jalin — Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0e1a12;
+      color: #e4ede6;
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+    .container { max-width: 680px; margin: 0 auto; }
+
+    .logo { display: flex; align-items: center; gap: 14px; margin-bottom: 48px; }
+    .logo img { width: 52px; height: 52px; border-radius: 13px; box-shadow: 0 2px 12px rgba(0,0,0,0.5); }
+    .logo-name { font-size: 22px; font-weight: 700; color: #e4ede6; }
+    .logo-sub  { font-size: 13px; color: #5cba7d; margin-top: 1px; }
+
+    h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+    .updated { color: #5cba7d; font-size: 14px; margin-bottom: 40px; }
+
+    h2 { font-size: 17px; font-weight: 600; color: #3ddc6e; margin: 36px 0 10px; }
+    p  { color: #a8c4b0; margin-bottom: 12px; }
+    ul { color: #a8c4b0; padding-left: 20px; margin-bottom: 12px; }
+    ul li { margin-bottom: 6px; }
+    a  { color: #3ddc6e; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .badge {
+      display: inline-block; background: #142018; border: 1px solid #1e3324;
+      border-radius: 20px; padding: 4px 12px; font-size: 12px; color: #3ddc6e;
+      font-weight: 600; letter-spacing: 0.3px;
+    }
+    .highlight {
+      background: #112016; border: 1px solid #1e3324; border-left: 4px solid #3ddc6e;
+      border-radius: 8px; padding: 18px 22px; margin: 24px 0;
+    }
+    .highlight p { color: #e4ede6; margin: 0; font-weight: 500; }
+
+    footer {
+      margin-top: 60px; padding-top: 24px; border-top: 1px solid #142018;
+      color: #3a5c42; font-size: 13px;
+    }
+    footer a { color: #3a5c42; }
+    footer a:hover { color: #5cba7d; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="logo">
+      <img src="icon.png" alt="Jalin app icon" />
+      <div>
+        <div class="logo-name">Jalin</div>
+        <div class="logo-sub">Industrial Protocol Simulator</div>
+      </div>
+    </div>
+
+    <span class="badge">Privacy Policy</span>
+    <h1 style="margin-top: 16px;">Your Privacy</h1>
+    <p class="updated">Last updated: June 2026</p>
+
+    <div class="highlight">
+      <p>Jalin does not collect, transmit to us, or share any personal data. The app has no servers, no analytics, and no telemetry. It connects only to the industrial devices you choose to configure.</p>
+    </div>
+
+    <h2>What the App Stores Locally</h2>
+    <p>The following is stored <strong>locally on your Mac only</strong>, in the application support folder (<code>~/Library/Application Support/Jalin/</code>):</p>
+    <ul>
+      <li><strong>Connection settings and profiles</strong> — host, port, addresses, timers, and protocol parameters you configure and save.</li>
+      <li><strong>License status</strong> — a record of your activated license tier (Pro or single-protocol), stored as a JSON file. The actual license key is not stored after validation.</li>
+    </ul>
+    <p>Frame logs, point tables, and console data are kept in memory only and are cleared when you quit the app or click Clear. Removing the app and its support folder removes everything it has stored.</p>
+
+    <h2>Device Connections</h2>
+    <p>Jalin is an industrial protocol simulator and test tool. Its purpose is to connect to the IEC 60870-5-104, IEC 60870-5-101, IEC 60870-5-103, Modbus, MQTT, and DNP3 devices that <strong>you</strong> specify. When you connect, the app exchanges protocol frames directly with that device. Data travels between your Mac and that device only — it does not pass through the developer's servers.</p>
+    <p>Those devices are operated by you or by third parties (for example an RTU, a substation gateway, or a simulator on your own infrastructure). They are not controlled by the developer of Jalin. Please review the policy of any device or network you connect to.</p>
+
+    <h2>License Validation</h2>
+    <p>Jalin uses <a href="https://gumroad.com" target="_blank" rel="noopener">Gumroad</a> for license key validation. When you enter a license key and click Activate, the key is sent to Gumroad's API to verify its authenticity. This is a one-time request at activation time. Gumroad's privacy policy governs how they handle that request. The developer of Jalin does not store or log the key.</p>
+
+    <h2>No Tracking, No Analytics, No Accounts</h2>
+    <p>Jalin contains no analytics, advertising SDKs, crash-reporting tools, or tracking frameworks. There are no user accounts. The app makes no network requests other than the device connections you initiate and the one-time license activation request to Gumroad.</p>
+
+    <h2>Payment</h2>
+    <p>All payment is handled by Gumroad. The developer does not receive, store, or process any payment card information. Gumroad's privacy policy and terms of service apply to the purchase transaction.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Jalin does not collect data from anyone. Since no personal data is transmitted to the developer, there are no age-based restrictions on data handling.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If this policy changes, the updated version will be posted at this URL with a new "Last updated" date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about privacy? Reach out at <a href="mailto:justintas@gmail.com">justintas@gmail.com</a></p>
+
+    <footer>
+      <p>© 2026 Justin Tew. All rights reserved. · <a href="../">All Apps</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>
